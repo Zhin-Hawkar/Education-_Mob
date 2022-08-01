@@ -1,0 +1,627 @@
+body{
+    background-color:#4d9fa2;
+    font-family: Lato,sans-serif;
+    height:1800px;
+}
+.Navbar{
+    height: 100%;                                                     
+    width: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    background-color: #114a4b;
+    overflow-x: hidden;
+    transition: 0.6s;
+    padding-top: 60px;
+}
+div{
+    display: block;
+}
+.Navbar .closebtn{
+position: absolute;
+top: 0;
+right:25px;
+font-size: 30px;
+margin-left: 50px;
+
+
+}
+.Navbar a{
+    padding: 8px 8px 8px 35px;
+    text-decoration: none;
+    color:#55adb0;
+    font-size: 22px;
+    display: block;
+    transition: 0.6s;
+    
+}
+.Navbar a:hover{
+    color: #60faff;
+
+}
+.mySlides{
+   
+    display:none;
+    position: absolute;
+    top:7em;
+    left:20em;
+    box-shadow: 4px 4px 4px 4px #2c7072;
+    }
+.mySlides_1{
+    
+    display: block;
+    position: absolute;
+    top:7em;
+    left:20em;
+    box-shadow: 4px 4px 4px 4px #2c7072;
+    }
+
+.dots{
+    height: 13px;
+    width: 13px;
+    margin: 0 3px;
+    position: relative;
+    top: 29em;
+    right:1.5em;
+    cursor:pointer;
+    background-color:#1a5456 ;
+    border-radius: 50%;
+    display: inline-block;
+    transition: 0.6s ease;
+    
+   
+}
+.active, .dots:hover{
+    background-color: #2ae5eb;
+}
+
+.menu{
+    position: absolute;
+    top:0.1em;
+    margin: 10px;
+
+}
+.menu:hover{
+color: #00f7ff;
+transition:0.4s ease-out;
+
+
+}
+.header-bar{
+    border:1px solid #489598;
+    position: fixed;
+    top:0;
+    right:0;
+    left:0;
+    z-index:1;
+    height:65px;
+    background-color:#3a7e81 ;
+    box-shadow: 2px 2px #31696b;
+    
+}
+.header{
+position: absolute;
+left:6em;
+top:0.3em;
+}
+.hat{
+    position: absolute;
+    left:-25px;
+    top:-3px;
+    transform: rotate(-25deg);
+   height: 50px;
+   width:50px;
+}                                                                   
+    
+
+ .Nav-top-menu{
+    height:-5px;
+    width:150px;
+    position: fixed;
+    top:4.3em;
+    left:55em;
+    z-index:1;
+    background-color: #218586;
+    overflow-y: hidden;
+    transition: 0.6s;
+}
+
+.Nav-top-menu .Opened{
+position: absolute;
+top:2em;
+font-size: 30px;
+
+
+
+
+}
+     
+.Nav-top-menu a{
+    padding: 8px 8px 8px ;
+    text-decoration: none;
+    color: #000000;
+    font-size: 22px;
+    display: block;
+    transition: 0.5s;
+    
+    
+}
+.Nav-top-menu a:hover{
+   color: #60faff;
+   
+}
+.Open{
+    position: absolute;
+    left:35.7em;
+    top:1em;
+    margin: 10px;
+    transition: 0.6s;
+}
+.Open:hover{
+    color: #60faff;
+}
+
+.Close{
+    position: absolute;
+    left:3em;
+    top:9.5em;
+    margin: 10px;
+    transition: 0.6s;
+    transform: rotate(-90deg);
+   
+   
+}
+.Close:hover{
+   color:black;
+}
+
+
+
+.line{
+width:80%;
+height: 0;
+border:1px solid #3a7e81;
+border-bottom: 0;
+border-left: 0;
+border-right: 0;
+position:absolute;
+top:40em;
+transform: translateX(10%);
+box-shadow:2px 2px #204d4f;
+}
+.heading{
+    position: absolute;
+    top:18em;
+    left:5em;
+}
+.big{
+    width:82%;
+    position: relative;
+    top:40em;
+    left:7.5em;
+    height: 1000px;
+    
+}
+
+.inside-big-1{
+    
+    width:200px;
+    height:300px;
+    margin:20px;
+    display: inline-block;
+    
+}
+
+.inside-big-2{
+    
+    width:200px;
+    height:300px;
+    margin:20px;
+    display: inline-block;
+}
+.inside-big-3{
+   
+    width:200px;
+    height:300px;
+    margin:20px;
+    display: inline-block;
+}
+.inside-big-4{
+    
+    width:200px;
+    height:300px;
+    margin:20px;
+    display: inline-block;
+}
+.inside-big-5{
+    
+    width:200px;
+    height:300px;
+    margin:20px;
+    display: inline-block;
+}
+.inside-big-6{
+    
+    width:200px;
+    height:300px;
+    margin:20px;
+    display: inline-block;
+}
+.inside-big-7{
+    
+    width:200px;
+    height:300px;
+    margin:20px;
+    display: inline-block;
+}
+.inside-big-8{
+    
+    width:200px;
+    height:300px;
+    margin:20px;
+    display: inline-block;
+}
+.inside-big-9{
+    
+    width:200px;
+    height:300px;
+    margin:20px;
+    display: inline-block;
+}
+.inside-big-10{
+   
+    width:200px;
+    height:300px;
+    margin:20px;
+    display: inline-block;
+    
+}
+
+.inside-big-1:hover, .inside-big-2:hover, .inside-big-3:hover, .inside-big-4:hover, .inside-big-5:hover, .inside-big-6:hover, .inside-big-7:hover, .inside-big-8:hover, .inside-big-9:hover, .inside-big-10:hover{
+box-shadow: 5px 5px 5px 5px#2c7072;
+transition: 0.4s ease;
+}
+
+
+
+
+
+@media screen and  (min-width: 246px) and (max-width:1020px){
+    .mySlides{
+        display:none;
+        position: absolute;
+        top:7em;
+        left:4em;
+        box-shadow: 4px 4px 4px 4px #2c7072;
+        height:75%;
+        width:75%;
+        align-items: center;
+        }
+    .mySlides_1{
+        display: block;
+        position: absolute;
+        top:7em;
+        left:4em;
+        box-shadow: 4px 4px 4px 4px #2c7072;
+        height:75%;
+        width:75%;
+        align-items: center;
+        }
+        .dots{
+        display: none;
+            }
+        
+}
+@media screen and (min-width:273px) and (min-height:596px){
+    .mySlides{
+        display:none;
+        position: absolute;
+        top:7em;
+        left:3.5em;
+        box-shadow: 4px 4px 4px 4px #2c7072;
+        height:75%;
+        width:100%;
+        align-items: center;
+        }
+    .mySlides_1{
+        display: block;
+        position: absolute;
+        top:7em;
+        left:3.5em;
+        box-shadow: 4px 4px 4px 4px #2c7072;
+        height:75%;
+        width:100%;
+        align-items: center;
+        }
+        .dots{
+        display: none;
+            }
+           
+            .header{
+            position: absolute;
+            left:4em;
+            top:0.3em;
+            }
+            .Nav-top-menu{
+                height:-5px;
+                width:150px;
+                position: fixed;
+                top:4.3em;
+                left:14em;
+                z-index:1;
+                background-color: #218586;
+                overflow-y: hidden;
+                transition: 0.6s;
+            }
+            .Nav-top-menu .Opened{
+                position: absolute;
+                top:2em;
+                font-size: 30px;
+                 }
+                 .Open{
+                    position: absolute;
+                    left:9.7em;
+                    top:1em;
+                    margin: 10px;
+                    transition: 0.6s;
+                }
+                .line{
+                    width:134%;
+                    height: 0;
+                    border:1px solid #3a7e81;
+                    border-bottom: 0;
+                    border-left: 0;
+                    border-right: 0;
+                    position:absolute;
+                    top:26em;
+                    transform: translateX(-2%);
+                    
+                    }
+                    .heading{
+                        position: absolute;
+                        top:11em;
+                        left:1em;
+                    }
+                    .big{
+                        width:82%;
+                        position: relative;
+                        top:26em;
+                        left:4em;
+                        height: 1000px;
+                        
+                    }
+          
+}
+@media screen and (min-width:360px) and (max-width:415px) and (min-height:667px) and (max-height:916px){
+    .big{
+        width:82%;
+        position: relative;
+        top:26em;
+        left:8em;
+        height: 1000px;
+        
+    }  
+}
+
+
+@media screen and (min-width:1020px) and (max-width:1500px){
+    .mySlides{
+        display:none;
+        position: absolute;
+        top:7em;
+        left:8em;
+        box-shadow: 4px 4px 4px 4px #2c7072;
+        height: 55%;
+        width:55%;
+        align-items: center;
+        }
+    .mySlides_1{
+        display: block;
+        position: absolute;
+        top:7em;
+        left:8em;
+        box-shadow: 4px 4px 4px 4px #2c7072;
+        height:55%;
+        width:55%;
+        align-items: center;
+        }
+        .dots{
+            display: inline-block;
+                }
+                .line{
+                    width:80%;
+                    height: 0;
+                    border:1px solid #3a7e81;
+                    border-bottom: 0;
+                    border-left: 0;
+                    border-right: 0;
+                    position:absolute;
+                    top:40em;
+                    transform: translateX(10%);
+                    box-shadow:2px 2px #204d4f;
+                    }
+                    .heading{
+                        position: absolute;
+                        top:18em;
+                        left:5em;
+                    }
+                    .big{
+                        width:82%;
+                        position: relative;
+                        top:40em;
+                        left:7.5em;
+                        height: 1000px;
+                        
+                    }
+           
+}
+@media screen and (min-width:1500px) and (max-width:1537px){
+    .mySlides{
+        display:none;
+        position: absolute;
+        top:7em;
+        left:23em;
+        box-shadow: 4px 4px 4px 4px #2c7072;
+        width:45%;
+        align-items: center;
+        }
+    .mySlides_1{
+        display: block;
+        position: absolute;
+        top:7em;
+        left:23em;
+        box-shadow: 4px 4px 4px 4px #2c7072;
+        width:45%;
+        align-items: center;
+        }
+        .dots{
+        display: inline-block;
+            }
+            .Nav-top-menu{
+                height:-5px;
+                width:150px;
+                position: fixed;
+                top:4.3em;
+                left:18em;
+                z-index:1;
+                background-color: #218586;
+                overflow-y: hidden;
+                transition: 0.6s;
+            }
+            .Nav-top-menu .Opened{
+                position: absolute;
+                top:2em;
+                font-size: 30px;
+                 }
+                 .Open{
+                    position: absolute;
+                    left:12.5em;
+                    top:1em;
+                    margin: 10px;
+                    transition: 0.6s;
+                }
+                .line{
+                    width:80%;
+                    height: 0;
+                    border:1px solid #3a7e81;
+                    border-bottom: 0;
+                    border-left: 0;
+                    border-right: 0;
+                    position:absolute;
+                    top:40em;
+                    transform: translateX(10%);
+                    box-shadow:2px 2px #204d4f;
+                    }
+                    .heading{
+                        position: absolute;
+                        top:18em;
+                        left:5em;
+                    }
+                    .big{
+                        width:82%;
+                        position: relative;
+                        top:40em;
+                        left:7.5em;
+                        height: 1000px;
+                        
+                    }
+}
+@media screen and (min-width:1000px) and (max-width:1500px){
+    .mySlides{
+        display:none;
+        position: absolute;
+        top:7em;
+        left:21em;
+        box-shadow: 4px 4px 4px 4px #2c7072;
+        width:45%;
+        align-items: center;
+        }
+    .mySlides_1{
+        display: block;
+        position: absolute;
+        top:7em;
+        left:21em;
+        box-shadow: 4px 4px 4px 4px #2c7072;
+        width:45%;
+        align-items: center;
+        }
+        .dots{
+        display: none;
+            }
+            .Nav-top-menu{
+                height:-5px;
+                width:150px;
+                position: fixed;
+                top:4.3em;
+                left:18em;
+                z-index:1;
+                background-color: #218586;
+                overflow-y: hidden;
+                transition: 0.6s;
+            }
+            .Nav-top-menu .Opened{
+                position: absolute;
+                top:2em;
+                font-size: 30px;
+                 }
+                 .Open{
+                    position: absolute;
+                    left:12.5em;
+                    top:1em;
+                    margin: 10px;
+                    transition: 0.6s;
+                }
+                .line{
+                    width:80%;
+                    height: 0;
+                    border:1px solid #3a7e81;
+                    border-bottom: 0;
+                    border-left: 0;
+                    border-right: 0;
+                    position:absolute;
+                    top:40em;
+                    transform: translateX(10%);
+                    box-shadow:2px 2px #204d4f;
+                    }
+                    .heading{
+                        position: absolute;
+                        top:18em;
+                        left:5em;
+                    }
+                    .big{
+                        width:82%;
+                        position: relative;
+                        top:40em;
+                        left:7.5em;
+                        height: 1000px;
+                        
+                    }
+}
+@media screen and (min-width:279px) and (max-width:1000px){
+    .Nav-top-menu{
+        height:-5px;
+        width:150px;
+        position: fixed;
+        top:4.3em;
+        left:18em;
+        z-index:1;
+        background-color: #218586;
+        overflow-y: hidden;
+        transition: 0.6s;
+    }
+    .Nav-top-menu .Opened{
+        position: absolute;
+        top:2em;
+        font-size: 30px;
+         }
+         .Open{
+            position: absolute;
+            left:12.5em;
+            top:1em;
+            margin: 10px;
+            transition: 0.6s;
+        }
+     
+}
+
